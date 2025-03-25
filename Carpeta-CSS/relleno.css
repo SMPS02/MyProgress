@@ -21,11 +21,12 @@
 }
 .titulo{
     font-size: 1.8rem;
+    color: White;
 }
 .lineaTitulos{
     width: 100%;
     height: 2px;
-    background-color: black;
+    background-color: white;
 }
 .texto{
 
@@ -44,14 +45,17 @@
 /*Contenido principal de MyProgress*/
 .mainProyectos{
     width: 100%;
-    height: 100vh;
+    height: 60vh;
 }
 .contenedorProyectos{
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
     column-gap: 10px;
     row-gap: 20px;
+
 }
 .proyecto{
     width: 150px;
@@ -97,10 +101,31 @@
 
 /*2- Apartado proyectos*/
 
-/* @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1306px) {
     
     .mainProyectos{
         
-        height: 200vh;
+        height: 100vh;
     }
-} */
+}
+@media screen and (max-width: 970px) {
+    
+    .mainProyectos{
+        
+        height: 130vh;
+    }
+}
+@media screen and (max-width: 650px) {
+    
+    .mainProyectos{
+        
+        height: 165vh;
+    }
+}
+@media screen and (max-width: 500px) {
+    
+    .mainProyectos{
+        
+        height: 220vh;
+    }
+}
