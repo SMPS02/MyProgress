@@ -127,3 +127,28 @@ a{
     height: 50%;
     background-color: red;
 }
+
+/*Responsive Design del header de la pagina MyProgress en general*/
+
+@media screen and (max-width:620px) {
+    
+    .header{
+        display: flex;
+        flex-direction: column;
+        height: 25vh;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 15px;
+    }
+    .contenedorLogo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .navBar{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+}
