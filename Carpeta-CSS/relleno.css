@@ -158,6 +158,9 @@
     .linea-3{
       width:60%;  
     }
+    .texto{
+        font-size: 1rem;
+    }
 } 
 
 /*2- Apartado proyectos*/
