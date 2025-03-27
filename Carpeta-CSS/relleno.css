@@ -149,18 +149,7 @@
     .titulo{
         font-size: 1.6rem;
     }
-    .lineaTitulos{
-        width: 70%;
-    }
-    .primeraLinea{
-        width: 80%;
-    }
-    .linea-3{
-      width:60%;  
-    }
-    .texto{
-        font-size: 1rem;
-    }
+    
 } 
 
 /*2- Apartado proyectos*/
@@ -184,6 +173,10 @@
     .mainProyectos{
         
         height: 165vh;
+    }
+    .proyecto{
+        height: 170px;
+        width: 130px;
     }
 }
 @media screen and (max-width: 500px) {
